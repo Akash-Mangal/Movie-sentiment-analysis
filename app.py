@@ -10,10 +10,3 @@ with st.container():
 with st.container():
     cols=st.columns(6)
     
-a=cols[0].button(MENU_OPTION[0])
-b=cols[1].button(MENU_OPTION[1])
-c=cols[2].button(MENU_OPTION[2])
-d=cols[3].button(MENU_OPTION[3])
-e=cols[4].button(MENU_OPTION[4])
-f=cols[5].button(MENU_OPTION[5])
-
