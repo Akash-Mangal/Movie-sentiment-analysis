@@ -23,7 +23,7 @@ Duis ut interdum diam, vitae luctus justo. Cras bibendum quis tortor ut facilisi
 Donec placerat tortor porttitor mattis sollicitudin. Fusce in sodales quam. Nullam urna metus, maximus eget convallis ut, varius eget tortor. Donec vulputate convallis pellentesque. Ut eros felis, dictum sed consectetur id, tempor et arcu. Aliquam odio lorem, lobortis at ultrices id, venenatis id nibh. Curabitur sed leo a velit faucibus efficitur ut at nisl. Pellentesque efficitur orci ut pellentesque sodales. Cras iaculis placerat porttitor. Phasellus fermentum, eros nec aliquam vulputate, ante massa posuere justo, quis congue nunc ante at dolor. Phasellus porta vitae lorem a viverra. Cras convallis tristique eros ut ultricies. Cras ac aliquam enim. Curabitur ac maximus dui, in tempor ipsum.LOremiptrgchmcmmch  tdk fyf yfkyfulyukuy ufu kf kkuu kdjyd ykdkfk kuf yk ky ky yk dyk yykdydy kukyfkytdyjy dk luf ku kd kydytk kdy kyd ky yd ky kkyy dyt dyt kyt y djyyjdydkfktyfkfh ufkuyf uyf luyfk fu u fulyf ukyfkuyf kufulyf kuyf kuyf kufufhg fkfkuf fluyfkuyf kyyfyjtdytdjy tkykfkuyfyktdky fkf ydyjdkycjfytd kfu lyf yksgc,hvkydkydgfxrerdx luyfrotu likjhjf khf mhf mhv mncmhdzsadszfxgc,jgibjhbvhgcgfsfdzbbv  v''')
 
    
-    s=clean(inp)
+s=clean(inp)
 
 with open("Akash Agarwal_18 AiMl+DS_ Movie sentiment analysis/cv1.pkl",'rb') as f1:
     cv1=pickle.load(f1)
