@@ -1,4 +1,4 @@
-
+[browser]
 gatherUsageStats = false
 MENU_OPTION = [
     'Show Data',
