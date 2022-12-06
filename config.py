@@ -1,4 +1,5 @@
 
+gatherUsageStats = false
 MENU_OPTION = [
     'Show Data',
     ' Data Stats',
