@@ -1,4 +1,5 @@
-browser.gatherUsageStats = False
+
+gatherUsageStats = False
 MENU_OPTION = [
     'Show Data',
     ' Data Stats',
