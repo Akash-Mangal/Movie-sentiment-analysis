@@ -1,7 +1,7 @@
 
 import streamlit as st
 from config import *
-from analyse import *
+
 
 st.set_page_config(layout="wide")
 choice=st.cache()
