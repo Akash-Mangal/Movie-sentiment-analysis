@@ -1,6 +1,7 @@
 import re
 import streamlit as st
 from config import *
+import pickle
 
 
 def clean(x):
