@@ -31,7 +31,7 @@ for i in inp:
     s=clean(i)
     f.append(s)
 
-with open("Akash Agarwal_18 AiMl+DS_ Movie sentiment analysis/cv1.pkl",'rb') as f1:
+with open("cv1.pkl",'rb') as f1:
     cv1=pickle.load(f1)
 t=cv1.transform(f).toarray()
 
