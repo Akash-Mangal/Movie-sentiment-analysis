@@ -2,6 +2,5 @@ streamlit
 numpy
 pandas
 plotly.express
-matplotlib
 re
 pickle
