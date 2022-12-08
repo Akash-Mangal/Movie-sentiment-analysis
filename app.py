@@ -40,7 +40,8 @@ Donec placerat tortor porttitor mattis sollicitudin. Fusce in sodales quam. Null
 
 inp=clean(f)
    
-
+with open("cv1.pkl",'rb') as f1:
+    cv1=pickle.load(f1)
 
 #t=cv1.transform(f)
 
