@@ -1,8 +1,22 @@
-
+import re
 import streamlit as st
 from config import *
 
 
+def clean(x):
+    #x=re.sub(r'\W',' ',x)
+    #x = re.sub(r'[^a-zA-Z]',' ',x)
+    x = re.sub("wouldn\'t",'would not',x)
+    x = re.sub("they \ 've",'they have',x)
+    
+    #to remove html tags
+    x = re.sub(r'<.*?>', '', x)
+    
+    #to remove everything except alpha
+    x = re.sub(r'[^a-zA-Z]',' ',x)
+     
+    x = re.sub(r'\s+',' ',x)          #remove extra space's
+    return x.lower()
 
 st.set_page_config(layout="wide")
 choice=st.cache()
