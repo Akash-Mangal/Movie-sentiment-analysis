@@ -1,4 +1,4 @@
-
+import matplotlib.pyplot as plt
 import streamlit as st
 from config import *
 
