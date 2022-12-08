@@ -1,7 +1,7 @@
 import matplotlib.pyplot as plt
 import streamlit as st
 from config import *
-from alalyse import *
+from analyse import *
 
 
 st.set_page_config(layout="wide")
