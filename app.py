@@ -35,7 +35,7 @@ with st.container():
    for i in coment:
      a+=1
      img_col[1].write(a) 
-     img_col[1].write(a+" "+i)
+     img_col[1].write(i)
 
 f=[]
 f.append(inp)
