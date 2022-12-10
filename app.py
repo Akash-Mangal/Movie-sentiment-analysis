@@ -43,6 +43,9 @@ with open("cv1.pkl",'rb') as f1:
 
 t=cv1.transform(f).toarray()
 
+with open("nb_model.pkl",'rb') as f1:
+    nb=pickle.load(f1)
+
 
 #pred=nb.predict(t)
 #st.write(pred)
