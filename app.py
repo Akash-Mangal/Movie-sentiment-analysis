@@ -67,7 +67,7 @@ for i in pred:
         
 cnt=[ze,one]       
 review= ['Dislike','Like']
-colors=['#97DECE','#F63366']
+colors=['#d1f0ff','#F63366']
 
 
 fig1, ax1 = plt.subplots()
