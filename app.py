@@ -47,6 +47,6 @@ with open("nb_model.pkl",'rb') as f1:
     nb=pickle.load(f1)
 
 
-#pred=nb.predict(t)
+pred=nb.predict(t)
 #st.write(pred)
    
