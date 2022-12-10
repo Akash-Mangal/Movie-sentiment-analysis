@@ -41,9 +41,9 @@ inp=clean(f[0])
 with open("cv1.pkl",'rb') as f1:
     cv1=pickle.load(f1)
 
-t=cv1.transform(f)
+t=cv1.transform(f).toarray()
 
 
-pred=nb.predict(t)
+#pred=nb.predict(t)
 #st.write(pred)
    
