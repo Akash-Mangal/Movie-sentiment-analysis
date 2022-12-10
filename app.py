@@ -71,7 +71,7 @@ colors=['red','blue']
 
 
 fig1, ax1 = plt.subplots()
-ax1.pie(cnt, labels=review,autopct='%2.2f%%',
+ax1.pie(cnt, labels=review,colors=colors, autopct='%2.2f%%',
         shadow=True, startangle=75)
 ax1.axis('equal')  # Equal aspect ratio ensures that pie is drawn as a circle.
 
