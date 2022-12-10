@@ -35,7 +35,7 @@ with st.container():
    for i in coment:
      img_col[1].write(i)
 
-f="This is a good movie to watch, amazing and have a lots of fun"
+#f="This is a good movie to watch, amazing and have a lots of fun"
 inp=clean(f)
    
 with open("cv1.pkl",'rb') as f1:
