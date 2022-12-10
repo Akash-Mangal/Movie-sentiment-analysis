@@ -44,6 +44,6 @@ with open("cv1.pkl",'rb') as f1:
 t=cv1.transform(f)
 
 
-#pred=nb.predict(t)
+pred=nb.predict(t)
 #st.write(pred)
    
