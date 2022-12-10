@@ -73,8 +73,8 @@ sizes = [15, 30, 45, 10]
 explode = (0, 0.1)  # only "explode" the 2nd slice (i.e. 'Hogs')
 
 fig1, ax1 = plt.subplots()
-ax1.pie(cnt, explode=explode, labels=review,autopct='%5.5f%%',
-        shadow=True, startangle=90)
+ax1.pie(cnt, explode=explode, labels=review,autopct='%2.2f%%',
+        shadow=True, startangle=10)
 ax1.axis('equal')  # Equal aspect ratio ensures that pie is drawn as a circle.
 
 img_col[2].pyplot(fig1)
