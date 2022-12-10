@@ -34,7 +34,7 @@ with st.container():
    inp=inp=img_col[1].text_input("",placeholder="Add Comment")
    a=0
    for i in coment:
-      a+=1
+     a+=1
      img_col[1].write(a) 
      img_col[1].write(i)
 
