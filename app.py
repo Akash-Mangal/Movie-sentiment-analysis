@@ -67,6 +67,7 @@ for i in pred:
         
 cnt=[ze,one]       
 review= ['Dislike','Like']
-
+ax1 = plt.subplots()
+ax1.pie(cnt, labels=review)
 
    
