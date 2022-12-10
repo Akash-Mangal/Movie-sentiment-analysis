@@ -56,4 +56,14 @@ with open("nb_model.pkl",'rb') as f1:
 
 pred=nb.predict(t)
 st.write(pred)
+ze=0
+one=0
+for i in pred:
+    if i==0:
+        ze+=1
+    else:
+        one+=1
+        
+cnt=[ze,one]       
+review= ['Dislike','Like']
    
