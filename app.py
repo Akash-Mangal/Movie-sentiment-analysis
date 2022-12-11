@@ -69,8 +69,8 @@ for i in coment:
     if pred[a]==0:
         a+=1
         img_col[1].markdown("<p style='text-align: justify; color: #79ffe1;'>"+i+"</p>", unsafe_allow_html=True)  
-     else:
-        a+=1
+    else:
+       a+=1
        img_col[1].markdown("<p style='text-align: justify; color: #FF577F;'>"+i+"</p>", unsafe_allow_html=True) 
    
   
