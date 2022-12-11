@@ -66,8 +66,15 @@ review= ['Dislike','Like']
 colors=['#79ffe1','#FF577F']
 
 for i in coment:
-   a+=1
-   img_col[1].write(a) 
+    if pred[a]==0:
+        a+=1
+        img_col[1].markdown("<p style='text-align: justify; color: #79ffe1;'>"+i+"</p>", unsafe_allow_html=True)  
+     else:
+        a+=1
+       img_col[1].markdown("<p style='text-align: justify; color: #FF577F;'>"+i+"</p>", unsafe_allow_html=True) 
+   
+  
+   
    img_col[1].markdown("<p style='text-align: justify; color: #F63366;'>"+i+"</p>", unsafe_allow_html=True)
 
 fig1, ax1 = plt.subplots()
