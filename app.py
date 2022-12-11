@@ -63,7 +63,7 @@ for i in pred:
         
 cnt=[ze,one]       
 review= ['Dislike','Like']
-colors=['#79ffe1','#FF577F']
+colors=['#3b5999','#FF577F']
 
 for i in coment:
     if pred[a]==0:
