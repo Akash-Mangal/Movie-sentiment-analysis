@@ -41,7 +41,8 @@ with st.container():
 f=[]
 #f.append(inp)
 #inp=clean(f[0])
-
+if inp:
+    coment.append(inp)
 for i in coment:
     d=clean(i)
     f.append(d)
