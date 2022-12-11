@@ -68,7 +68,7 @@ colors=['#79ffe1','#FF577F']
 for i in coment:
     if pred[a]==0:
         a+=1
-        img_col[1].markdown("<p style='text-align: justify; color: #f0f2f6;'>"+i+"</p>", unsafe_allow_html=True)  
+        img_col[1].markdown("<p style='text-align: justify; color: #48494a;'>"+i+"</p>", unsafe_allow_html=True)  
     else:
        a+=1
        img_col[1].markdown("<p style='text-align: justify; color: #FF577F;'>"+i+"</p>", unsafe_allow_html=True) 
