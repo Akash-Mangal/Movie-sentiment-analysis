@@ -79,5 +79,5 @@ ax1.pie(cnt, labels=review,colors=colors, autopct='%2.2f%%',
 ax1.axis('equal')  # Equal aspect ratio ensures that pie is drawn as a circle.
 
 img_col[2].pyplot(fig1)
-img_col[2].markdown("<p style='text-align: justify; color: #FF577F;'><b> Liked: "+str(one)+"</b></p>", unsafe_allow_html=True)
-img_col[2].markdown("<p style='text-align: justify; color: #3b5999;'><b> Disliked: "+str(ze)+"</b></p>", unsafe_allow_html=True)
+img_col[2].markdown("<p style='text-align: center; color: #FF577F;'><b> Like: "+str(one)+"</b></p>", unsafe_allow_html=True)
+img_col[2].markdown("<p style='text-align: center; color: #3b5999;'><b> Dislike: "+str(ze)+"</b></p>", unsafe_allow_html=True)
