@@ -67,10 +67,10 @@ colors=['#3b5999','#FF577F']
 for i in coment:
     if pred[a]==0:
         a+=1
-        img_col[1].markdown("<p style='text-align: justify; color: #3b5999;'><b>"+i+"</b></p>", unsafe_allow_html=True)  
+        img_col[1].markdown("<p style='text-align: justify; color: #3b5999;'><b>"+str(a)+i+"</b></p>", unsafe_allow_html=True)  
     else:
        a+=1
-       img_col[1].markdown("<p style='text-align: justify; color: #FF577F;'><b>"+i+"</b></p>", unsafe_allow_html=True) 
+       img_col[1].markdown("<p style='text-align: justify; color: #FF577F;'><b>"+str(a)+i+"</b></p>", unsafe_allow_html=True) 
    
 
 fig1, ax1 = plt.subplots()
