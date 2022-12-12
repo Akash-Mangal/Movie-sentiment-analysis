@@ -51,7 +51,7 @@ with open("nb_model.pkl",'rb') as f1:
 
 
 pred=nb.predict(t)
-st.write(pred)
+
 ze=0
 one=0
 for i in pred:
